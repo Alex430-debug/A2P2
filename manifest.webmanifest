@@ -1,0 +1,9 @@
+{
+  "name":"AP2 Exam Trainer",
+  "short_name":"AP2 Trainer",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#07111f",
+  "theme_color":"#07111f",
+  "icons":[]
+}

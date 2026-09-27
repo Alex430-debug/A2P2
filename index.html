@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AP2 Trainer">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+<title>AP2 Exam Trainer</title>
+</head>
+<body>
+<header class="top"><div><h1>AP2 Exam Trainer</h1><p>Originalfragen · Lernen · Revision · Prüfung · Punkte · Admin-Import</p></div><button id="menuBtn" class="iconBtn">☰</button></header>
+<nav id="nav" class="nav">
+<button data-page="home" class="active">Dashboard</button>
+<button data-page="learn">Lernen</button>
+<button data-page="questions">Alle Fragen</button>
+<button data-page="test">Prüfung</button>
+<button data-page="results">Ergebnisse</button>
+<button data-page="admin">Verwaltung</button>
+</nav>
+<main>
+<section id="home" class="page active"></section>
+<section id="learn" class="page"></section>
+<section id="questions" class="page"></section>
+<section id="test" class="page"></section>
+<section id="results" class="page"></section>
+<section id="admin" class="page"></section>
+</main>
+<div id="modal" class="modal hidden"><div class="modalBox"><button id="modalClose" class="modalClose">✕</button><img id="modalImg" alt="Original scan"></div></div>
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
